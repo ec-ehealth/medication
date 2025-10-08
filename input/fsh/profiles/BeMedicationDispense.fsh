@@ -16,8 +16,8 @@ Description: "Defines constraints and extensions on the Medication Dispense reso
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 
 * extension contains 
-     http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded named recorded 0..1 MS and 
-     BasedOnMedicationLine named basedOnMedicationLine 0..1 MS 
+    BeExtRecordedDate named recorded 0..1 MS and
+    BasedOnMedicationLine named basedOnMedicationLine 0..1 MS
 
 * identifier MS
 * identifier ^slicing.discriminator.type = #value
