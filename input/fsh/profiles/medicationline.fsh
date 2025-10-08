@@ -30,10 +30,11 @@ Description: "Medication Line profile - contains the overview information for a 
 //    DispenseRequestNeededCategory named dispense-request-needed 0..1 MS and 
     //VisibilityFlag named visibility-flag 0..1 MS and 
     http://hl7.org/fhir/StructureDefinition/artifact-version named artifact-version 1..1 MS and
-    http://hl7.org/fhir/StructureDefinition/artifact-date named artifact-date 0..1 MS and
+    http://hl7.org/fhir/StructureDefinition/artifact-date named artifact-date 0..1 MS
 
-  * extension contains
+* extension contains
     BeExtAdherenceStatus named adherenceStatus 0..1 MS
+
 
 //    BeExtAdherenceStatus named adherenceStatus 1..1 MS
 
